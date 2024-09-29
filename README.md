@@ -13,7 +13,7 @@ BondEmbedding 클래스는 분자 구조에서 결합 유형을 임베딩 벡터
 입력으로 들어온 결합 인덱스를 통해 해당 결합에 맞는 임베딩 벡터를 반환하여, 결합의 특징을 학습할 수 있도록 한다.
 
 
-# 사용한 model
+# model
 ### GNN(Graph Neural Networks)
 GNN은 그래프 구조 데이터를 처리하고 학습하는 데 사용되는 신경망 모델이다. 여기서 모델은 GIN convolutional layer을 두 번 적용하고 그 결과를 global mean pooling을 통해 그래프 수준의 벡터로 요약한 후, 마지막으로 fully connected layer를 통해 최종 예측값을 출력한다
 
